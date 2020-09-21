@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
   return (
     <div>
-    
+
       <NavLink
       to="/"
       exact
@@ -43,4 +43,3 @@ const NavBar = () => {
 
 
 export default NavBar;
-
