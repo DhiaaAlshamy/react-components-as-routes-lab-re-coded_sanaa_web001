@@ -8,7 +8,6 @@ const NavBar = () => {
       <NavLink
       to="/"
       exact
-      style={link}
       activeStyle={{
         background: 'darkblue'
       }}
@@ -16,7 +15,6 @@ const NavBar = () => {
      <NavLink
       to="/movies"
       exact
-      style={link}
       activeStyle={{
         background: 'darkblue'
       }}
@@ -24,7 +22,6 @@ const NavBar = () => {
      <NavLink
       to="/directors"
       exact
-      style={link}
       activeStyle={{
         background: 'darkblue'
       }}
@@ -32,7 +29,6 @@ const NavBar = () => {
      <NavLink
       to="/actors"
       exact
-      style={link}
       activeStyle={{
         background: 'darkblue'
       }}
